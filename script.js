@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 
 
-    // ПЕРЕМЕННЫЕ
+    // ПЕРЕМЕННЫЕ akljd
 
     let rightPosition = 0;
     let imgBlockPosition = 0;
