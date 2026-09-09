@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя игруха</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="canvas" oncontextmenu="return false;">
+
+        <div>
+            <img id="background-img" src="assets/2 Background/Day/Background.png">
+        </div>
+
+        <img src="img/fullscreen.png" id="fsBtn"/>
+
+        <div id="img-block" style="
+            width: 96px;
+            height: 96px;
+            overflow: hidden;
+            position: absolute;
+            left: 0px;
+            bottom: 64px;
+            ">
+            <img id="hero-img" src="img/hero-sprite.png" />
+        </div>
+        
+        <div id="jump-block">
+            <img id="jump-img" style="
+                position: absolute;
+                top: -144px;
+                left: -144px;
+                width: 864px;
+                height: 576px;
+                transform: scale(-1,1);
+                " src="img/hero-sprite.png" />
+            <div id="jump-btn">
+            </div>
+        </div>
+
+        <div id="hit-block">
+            <img id="hit-img" src="img/hero-sprite.png" />
+            <div id="hit-btn">
+            </div>
+        </div>
+        <p id="info"></p>
+    </div>
+</body>
+</html>
